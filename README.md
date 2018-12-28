@@ -1,6 +1,6 @@
 # react-component-webpack-tpl
 
-react-component-webpack-tpl 适用于业务场景丰富的组件，支持处理 js、图片、css、字体等。使用 webpack 生成开发环境和编译打包。是一个开发组件模板，用于 react-component-cli 脚手架。
+react-component-webpack-tpl 适用于业务场景丰富的组件，支持处理 js、图片、css、字体等。使用 webpack 生成开发环境和编译打包。是一个开发组件模板，用于 react-cv-cli 脚手架。
 
 ## Command
 
