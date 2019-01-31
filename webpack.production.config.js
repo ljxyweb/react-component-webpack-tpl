@@ -76,7 +76,7 @@ module.exports = {
             fallback: "file-loader", // 8k以上，用file-loader抽离（非必须，默认就是file-loader）
             name: "[name].[hash].[ext]", // 文件名规则，默认是[hash].[ext]
             outputPath: "/images/", // 输出路径
-            publicPath: "dist/" // 可访问到图片的引用路径(相对/绝对)
+            publicPath: "dist/images/" // 可访问到图片的引用路径(相对/绝对)
           }
         }
       },
@@ -88,7 +88,7 @@ module.exports = {
             options: {
               name: "[name].[hash].[ext]",
               outputPath: "/fonts/",
-              publicPath: "dist/"
+              publicPath: "dist/fonts/"
             }
           }
         ]
