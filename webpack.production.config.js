@@ -19,6 +19,10 @@ module.exports = {
     extensions: [".js", ".jsx"]
   },
   mode: "production",
+  externals: {
+    react: "React",
+    "react-dom": "ReactDOM"
+  }, //不打包这些资源
   module: {
     rules: [
       {
