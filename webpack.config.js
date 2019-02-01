@@ -61,8 +61,7 @@ module.exports = {
             limit: 1024 * 8, // 8k以下的base64内联，不产生图片文件
             fallback: "file-loader", // 8k以上，用file-loader抽离（非必须，默认就是file-loader）
             name: "[name].[hash].[ext]", // 文件名规则，默认是[hash].[ext]
-            outputPath: "/images/", // 输出路径
-            publicPath: "dist/images/" // 可访问到图片的引用路径(相对/绝对)
+            outputPath: "/images/" // 输出路径
           }
         }
       },
@@ -73,8 +72,7 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[hash].[ext]",
-              outputPath: "/fonts/",
-              publicPath: "dist/fonts/"
+              outputPath: "/fonts/"
             }
           }
         ]
